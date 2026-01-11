@@ -315,6 +315,7 @@ with tab2:
         with v2:
             st.markdown("**View 2: Meteo-Chemical**")
             if db['co_training']: st.code(", ".join(db['co_training'].get('views', {}).get('view2', [])))
+            
 
 # --- TAB 3: CẢNH BÁO THÔNG MINH & BỘ LỌC ĐA CHIỀU ---
 with tab3:
