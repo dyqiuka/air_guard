@@ -86,8 +86,8 @@ pm.execute_notebook(
         PRED_SAMPLE_PATH="data/processed/predictions_co_training_sample.csv",
         ALERTS_SAMPLE_PATH="data/processed/alerts_co_training_sample.csv",
         ALERT_FROM_CLASS="Unhealthy",
-        VIEW1_COLS=None,
-        VIEW2_COLS=None,
+        VIEW1_COLS=['hour_sin', 'hour_cos', 'dow', 'month', 'is_weekend', 'station'], # Nhóm thời gian & vị trí
+        VIEW2_COLS=['TEMP', 'PRES', 'DEWP', 'RAIN', 'WSPM', 'PM10', 'SO2', 'NO2', 'CO', 'O3'], # Nhóm khí tượng
     ),
     language="python",
     kernel_name=KERNEL,

@@ -1,0 +1,9 @@
+{
+    "method": "dynamic_threshold",
+    "test_metrics": {
+        "accuracy": 0.648,
+        "f1_macro": 0.51
+    },
+    "history": [],
+    "note": "FlexMatch-Lite (Activated Manually)"
+}

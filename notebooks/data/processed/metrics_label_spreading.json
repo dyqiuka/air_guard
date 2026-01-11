@@ -1,0 +1,8 @@
+{
+    "method": "label_spreading",
+    "test_metrics": {
+        "accuracy": 0.625,
+        "f1_macro": 0.482
+    },
+    "note": "Graph-based Learning (Activated Manually)"
+}
